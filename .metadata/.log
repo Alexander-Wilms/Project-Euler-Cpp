@@ -143,3 +143,6 @@ Caused by: java.net.SocketTimeoutException
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-02-28 18:08:27.495
 !MESSAGE Indexed 'Concealed Square' (1 sources, 0 headers) in 0,005 sec: 6 declarations; 9 references; 4 unresolved inclusions; 1 syntax errors; 12 unresolved names (44 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-28 19:43:00.710
+!MESSAGE Indexed 'Largest product in a grid' (1 sources, 0 headers) in 0,012 sec: 10 declarations; 28 references; 4 unresolved inclusions; 0 syntax errors; 35 unresolved names (48 %)

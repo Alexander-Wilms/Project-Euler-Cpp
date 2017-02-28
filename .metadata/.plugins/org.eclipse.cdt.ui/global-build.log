@@ -1,5 +1,5 @@
-19:17:49 **** Incremental Build of configuration Debug for project Concealed Square ****
+20:14:23 **** Incremental Build of configuration Debug for project Largest product in a grid ****
 Info: Internal Builder is used for build
 g++ -std=c++0x -O3 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
-g++ -o "Concealed Square.exe" "src\\main.o" 
-Info: Nothing to build for Concealed Square
+g++ -o "Largest product in a grid.exe" "src\\main.o" 
+Info: Nothing to build for Largest product in a grid
