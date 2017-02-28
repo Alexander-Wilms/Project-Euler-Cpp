@@ -1,0 +1,28 @@
+// https://projecteuler.net/problem=31
+
+#include <iostream>
+#include <cmath>
+#include <string>
+using namespace std;
+#define SIZE 1000
+
+int main() {
+	long long base = 1;
+	long long square = 0;
+	bool done = false;
+	string tmp;
+	char * tmp_array;
+
+	while(!done) {
+		square = pow(base,2);
+		tmp = to_string(square);
+		tmp_array = tmp.c_str();
+
+		cout << tmp << " " << sizeof(tmp_array) << endl;
+		base++;
+	}
+
+	cout << base << endl;
+
+	return 0;
+}

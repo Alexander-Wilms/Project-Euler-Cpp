@@ -1,0 +1,24 @@
+// https://projecteuler.net/problem=31
+
+#include <iostream>
+#include <cmath>
+#include <string>
+using namespace std;
+#define SIZE 1000
+
+int main() {
+	long long base = 1;
+	long long square = 0;
+	bool done = false;
+	string tmp;
+
+	while(!done) {
+		square = pow(base,2);
+		tmp = std::to_string(square);
+		base++;
+	}
+
+	cout << base << endl;
+
+	return 0;
+}

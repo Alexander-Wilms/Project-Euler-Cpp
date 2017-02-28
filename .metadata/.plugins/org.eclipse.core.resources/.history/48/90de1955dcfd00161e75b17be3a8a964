@@ -1,0 +1,47 @@
+// https://projecteuler.net/problem=31
+
+#include <iostream>
+#include <cmath>
+#include <string>
+#include <sstream>
+
+#define SIZE 1000
+
+template<typename T> std::string ToString(T val) {
+	std::stringstream stream;
+	stream << val;
+	return stream.str();
+}
+
+int main() {
+	long base = 1;
+	long long square = 0;
+	bool done = false;
+	std::string tmp;
+
+	while(!done) {
+		square = pow(base,2);
+		if(square >= 1121314151617181910) {
+			tmp = ToString(square);
+			std::cout << tmp << " " << tmp.length() << std::endl;
+			if(tmp.at(0) == '1' &&
+					tmp.at(2) == '2' &&
+					tmp.at(4) == '3' &&
+					tmp.at(6) == '4' &&
+					tmp.at(8) == '5' &&
+					tmp.at(10) == '6' &&
+					tmp.at(12) == '7' &&
+					tmp.at(14) == '8' &&
+					tmp.at(16) == '9' &&
+					tmp.at(18) == '0') {
+
+				std::cout << base << std::endl;
+			}
+		}
+		base++;
+	}
+
+	std::cout << base << std::endl;
+
+	return 0;
+}

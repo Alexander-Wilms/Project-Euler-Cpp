@@ -1,0 +1,42 @@
+// https://projecteuler.net/problem=31
+
+#include <iostream>
+#include <cmath>
+#include <string>
+#include <sstream>
+
+#define SIZE 1000
+
+template<typename T> std::string ToString(T val) {
+	std::stringstream stream;
+	stream << val;
+	return stream.str();
+}
+
+int main() {
+	long base = 1;
+	long long square = 0;
+	bool done = false;
+	std::string tmp;
+	char* c_string;
+
+	while(!done) {
+		square = pow(base,2);
+		tmp = ToString(square);
+
+
+
+		std::cout << tmp << " " << tmp.length() << std::endl;
+		if(tmp.length() == 19) {
+			*c_string = tmp.c_str();
+			if(c_string[0] == '1') {
+				std::cout << "hatte ne 1 an erster stelle" << std::endl;
+			}
+		}
+		base++;
+	}
+
+	std::cout << base << std::endl;
+
+	return 0;
+}

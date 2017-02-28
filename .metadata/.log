@@ -119,3 +119,27 @@ Caused by: java.net.SocketTimeoutException
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-02-28 14:53:45.818
 !MESSAGE Indexed 'Coin sums' (1 sources, 100 headers) in 2,32 sec: 8.533 declarations; 14.546 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-28 15:53:55.747
+!MESSAGE Indexed 'Concealed Square' (1 sources, 100 headers) in 1,98 sec: 8.533 declarations; 14.532 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-28 15:59:23.826
+!MESSAGE Indexed 'Concealed Square' (1 sources, 100 headers) in 1,98 sec: 8.528 declarations; 14.512 references; 0 unresolved inclusions; 1 syntax errors; 1 unresolved names (0,0043 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-28 16:02:00.127
+!MESSAGE Indexed 'Concealed Square' (1 sources, 104 headers) in 3,62 sec: 11.371 declarations; 17.608 references; 0 unresolved inclusions; 0 syntax errors; 1 unresolved names (0,0035 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-28 16:03:44.830
+!MESSAGE Indexed 'Concealed Square' (1 sources, 123 headers) in 3,23 sec: 14.553 declarations; 20.780 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-28 17:57:04.072
+!MESSAGE Indexed 'Concealed Square' (1 sources, 0 headers) in 0,004 sec: 2 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 2 unresolved names (40 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-28 17:58:37.969
+!MESSAGE Indexed 'Concealed Square' (1 sources, 0 headers) in 0,005 sec: 6 declarations; 9 references; 3 unresolved inclusions; 0 syntax errors; 13 unresolved names (46 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-28 18:04:45.085
+!MESSAGE Indexed 'Concealed Square' (1 sources, 0 headers) in 0,006 sec: 6 declarations; 9 references; 3 unresolved inclusions; 0 syntax errors; 13 unresolved names (46 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-28 18:08:27.495
+!MESSAGE Indexed 'Concealed Square' (1 sources, 0 headers) in 0,005 sec: 6 declarations; 9 references; 4 unresolved inclusions; 1 syntax errors; 12 unresolved names (44 %)
