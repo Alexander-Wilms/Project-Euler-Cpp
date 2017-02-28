@@ -107,3 +107,12 @@ Caused by: java.net.SocketTimeoutException
 	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:244)
 	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
 	... 16 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-28 14:12:39.572
+!MESSAGE Indexed 'Integer right triangles' (1 sources, 0 headers) in 0,073 sec: 9 declarations; 42 references; 1 unresolved inclusions; 0 syntax errors; 5 unresolved names (8,9 %)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-02-28 14:23:04.762
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-02-28 14:23:04.774
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

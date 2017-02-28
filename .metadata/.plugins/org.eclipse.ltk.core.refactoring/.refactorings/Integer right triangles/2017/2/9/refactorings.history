@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Integer right triangles/src/Triangular, pentagonal, and hexagonal.cpp&apos; to &apos;main.cpp&apos;" description="Rename resource &apos;Triangular, pentagonal, and hexagonal.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Triangular, pentagonal, and hexagonal.cpp" name="main.cpp" stamp="1488287580347" updateReferences="true"/>
+</session>

@@ -1,6 +1,6 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Triangular, pentagonal, and hexagonal.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Triangular, pentagonal, and hexagonal.exe,org.eclipse.launchbar.core.descriptorType.default\:Integer right triangles.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Triangular,\ pentagonal,\ and\ hexagonal.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Triangular,\ pentagonal,\ and\ hexagonal.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

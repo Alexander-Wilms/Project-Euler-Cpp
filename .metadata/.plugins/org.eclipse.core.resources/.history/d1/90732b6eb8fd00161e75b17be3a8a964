@@ -1,0 +1,23 @@
+// https://projecteuler.net/problem=39
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	long long p = 1;
+
+	for(long long a = 1; a < 1000; a++) {
+		for(long long b = 1; b < 1000; b++) {
+			p = a + b;
+			for(long long c = 1; c < 1000; c++) {
+				p += c;
+				if(p > 1000) {
+					break;
+				}
+			}
+		}
+	}
+
+	return 0;
+}

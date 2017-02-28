@@ -1,0 +1,44 @@
+// https://projecteuler.net/problem=39
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+#define SIZE 10000
+
+int main() {
+	long long p = 1;
+	long long* number_of_combinations = new long long[SIZE];
+
+	for(int i = 0; i < SIZE; i++) {
+		number_of_combinations[i] = 0;
+	}
+
+	for(long long a = 1; a < 1000; a++) {
+		for(long long b = 1; b < 1000; b++) {
+			p = a + b;
+			for(long long c = 1; c < 1000; c++) {
+				p += c;
+				if(p > 1000) {
+					//cout << "p is exceeding 1000" << endl;
+					//break;
+				} else {
+					number_of_combinations[p]++;
+				}
+			}
+		}
+	}
+
+	int max_number_of_combinations = 0;
+	int index_at_max_number_of_combinations = 0;
+
+	for(int i = 0; i < SIZE; i++) {
+		if(number_of_combinations[i] > max_number_of_combinations) {
+			max_number_of_combinations = number_of_combinations[i];
+			index_at_max_number_of_combinations = i;
+		}
+	}
+
+	cout << index_at_max_number_of_combinations << endl;
+
+	return 0;
+}
