@@ -116,3 +116,6 @@ Caused by: java.net.SocketTimeoutException
 
 !ENTRY org.eclipse.launchbar.core 2 0 2017-02-28 14:23:04.774
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-28 14:53:45.818
+!MESSAGE Indexed 'Coin sums' (1 sources, 100 headers) in 2,32 sec: 8.533 declarations; 14.546 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)

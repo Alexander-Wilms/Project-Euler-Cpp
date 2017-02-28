@@ -1,5 +1,6 @@
-14:51:43 **** Incremental Build of configuration Debug for project Integer right triangles ****
+15:01:57 **** Rebuild of configuration Debug for project Coin sums ****
 Info: Internal Builder is used for build
 g++ -O3 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
-g++ -o "Integer right triangles.exe" "src\\main.o" 
-Info: Nothing to build for Integer right triangles
+g++ -o "Coin sums.exe" "src\\main.o" 
+Info: Nothing to build for Coin sums
+Info: Nothing to build for Coin sums
