@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : Triangular,.cpp
+// Author      : 
+// Version     :
+// Copyright   : 
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "h" << endl; // prints h
+	return 0;
+}

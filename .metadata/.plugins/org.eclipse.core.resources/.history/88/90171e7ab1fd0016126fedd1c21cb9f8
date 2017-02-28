@@ -1,0 +1,27 @@
+// https://projecteuler.net/problem=45
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int triangle[1000], pentagonal[1000], hexagonal[1000];
+	int n;
+	for(int i = 0; i < 1000; i++) {
+		n = i+1;
+		triangle[i] = n*(n+1)/2;
+		pentagonal[i] = n*(3*n-1)/2;
+		hexagonal[i] = n*(2*n-1);
+	}
+
+	for(int t = 0; t < 1000; t++) {
+		for(int p = 0; p < 1000; p++) {
+			for(int h = 0; h < 1000; h++) {
+				if(triangle[t] == pentagonal[p] && pentagonal[p] == hexagonal[h]) {
+					std::cout << triangle[t] << std::endl;
+				}
+			}
+		}
+	}
+
+	return 0;
+}

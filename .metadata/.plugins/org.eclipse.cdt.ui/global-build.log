@@ -1,0 +1,5 @@
+13:52:25 **** Incremental Build of configuration Debug for project Triangular, pentagonal, and hexagonal ****
+Info: Internal Builder is used for build
+g++ -O3 -g3 -Wall -c -fmessage-length=0 -o "src\\Triangular, pentagonal, and hexagonal.o" "..\\src\\Triangular, pentagonal, and hexagonal.cpp" 
+g++ -o "Triangular, pentagonal, and hexagonal.exe" "src\\Triangular, pentagonal, and hexagonal.o" 
+Info: Nothing to build for Triangular, pentagonal, and hexagonal
